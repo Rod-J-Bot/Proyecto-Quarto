@@ -11,20 +11,22 @@ Un modelo biogeoquímico es una representación simplificada y matemática de lo
 2\. FORMULACIÓN DEL MODELO
 
 Un modelo matemático (NPZD) basado en los cuatro compartimentos (Nutriente (N), Fitoplancton (P),
-
 Zooplancton (Z) y Detritus (D)) se propone para comprender la ecología de las zonas costeras poco profundas.
-
 lagunas. Las interacciones entre los compartimentos se describen en la Figura 1. Las flechas indican el flujo
-
 de materia entre diferentes compartimentos. Las ecuaciones del modelo son
 
 \$\$dN/ dT
 
 Todos los parámetros junto con sus unidades y rangos se dan en la Tabla 1. Las unidades de N, P, Z y D son
-
 en µg/l y la unidad de tiempo es en días. La parametrización utilizada para elegir los términos en las ecuaciones (1) - (4) es
-
 explicado en las secciones
+
+
+3\. RESULTADOS
+
+4\. CONCLUSIONES
+
+5\. BIBLIOGRAFIA
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
