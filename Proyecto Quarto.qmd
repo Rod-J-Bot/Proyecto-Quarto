@@ -4,15 +4,29 @@ format: pdf
 editor: visual
 ---
 
-## Ciclos Biogeoquímicos en Lagos del Sur de Chile
+## Ciclos Biogeoquímicos en Lagos del Sur de Chile {#Resumen .Ilustracion}
 
 Un modelo biogeoquímico es una representación simplificada y matemática de los procesos biológicos, geológicos y químicos que ocurren en los ecosistemas. Estos modelos se utilizan para comprender y simular los flujos de energía, nutrientes y elementos químicos a través de los sistemas naturales, como los océanos, bosques, suelos y cuerpos de agua. Los modelos biogeoquímicos integran información sobre los ciclos biogeoquímicos, que incluyen procesos como la fotosíntesis, la descomposición, la respiración, la fijación de nitrógeno, la lixiviación de nutrientes y la deposición atmosférica. Estos modelos tienen en cuenta las interacciones entre los diferentes componentes del sistema, como las plantas, los animales, los microorganismos, los suelos y la atmósfera. Los modelos biogeoquímicos son herramientas poderosas para predecir los efectos del cambio ambiental, como el cambio climático, la contaminación y la deforestación, en los ciclos biogeoquímicos y en la salud de los ecosistemas. También se utilizan para evaluar la eficacia de las estrategias de gestión y conservación, y para informar la toma de decisiones en la gestión de recursos naturales. Los modelos biológicos han sido ampliamente utilizados para comprender la dinámica y las interacciones en los ecosistemas pelágicos. Entre ellos, los modelos de compartimentos han sido especialmente relevantes al agrupar poblaciones completas en compartimentos individuales que interactúan entre sí. La complejidad de estos modelos varía en función de las variables de estado incluidas y las reglas que gobiernan su interacción. Un modelo conocido en este contexto es el modelo propuesto por Fasham et al. (1990), el cual incluye siete compartimentos: fitoplancton, zooplancton, bacterias, nitrato, amonio, nitrógeno orgánico disuelto y detritos. Sin embargo, uno de los modelos biológicos más simples y ampliamente utilizado es el modelo NPZ desarrollado por Franks et al. (1986), que considera únicamente tres compartimentos: fitoplancton, zooplancton y nutrientes disueltos. El modelo NPZ captura los procesos fundamentales que rigen el crecimiento y las interacciones entre estos compartimentos clave. Considera variables como la disponibilidad de nutrientes, la presión de pastoreo y las tasas de crecimiento del fitoplancton, brindando una representación simplificada pero valiosa de la dinámica de los ecosistemas pelágicos. Este modelo ha sido adaptado y aplicado en diversos entornos marinos, proporcionando información crucial sobre el funcionamiento de las comunidades planctónicas y sus respuestas a los cambios ambientales. En conclusión, los modelos biológicos, como el modelo NPZ, desempeñan un papel crucial en nuestra comprensión de la compleja dinámica y las interacciones en los ecosistemas pelágicos. Aunque existen modelos más complejos que abarcan múltiples compartimentos y variables, el modelo NPZ proporciona una representación efectiva y simplificada de los componentes esenciales en estos ecosistemas. Estos modelos son herramientas valiosas para avanzar en nuestro conocimiento y contribuir a la conservación y gestión de los hábitats marinos.
 
+2\. FORMULACIÓN DEL MODELO
+
+Un modelo matemático (NPZD) basado en los cuatro compartimentos (Nutriente (N), Fitoplancton (P),
+
+Zooplancton (Z) y Detritus (D)) se propone para comprender la ecología de las zonas costeras poco profundas.
+
+lagunas. Las interacciones entre los compartimentos se describen en la Figura 1. Las flechas indican el flujo
+
+de materia entre diferentes compartimentos. Las ecuaciones del modelo son
+
+\$\$dN/ dT
+
+Todos los parámetros junto con sus unidades y rangos se dan en la Tabla 1. Las unidades de N, P, Z y D son
+
+en µg/l y la unidad de tiempo es en días. La parametrización utilizada para elegir los términos en las ecuaciones (1) - (4) es
+
+explicado en las secciones
+
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
-
-
-
 
 ```{r}
 1 + 1
