@@ -1,6 +1,6 @@
 ---
 title: "Proyecto Quarto"
-Author: Rodrigo Jaramillo Teufert
+author: Rodrigo Jaramillo Teufert
 format: pdf
 editor: visual
 bibliography: references.bib
@@ -18,7 +18,7 @@ Los modelos biológicos han sido ampliamente utilizados para comprender la diná
 El modelo NPZ captura los procesos fundamentales que rigen el crecimiento y las interacciones entre estos compartimentos clave. Considera variables como la disponibilidad de nutrientes, la presión de pastoreo y las tasas de crecimiento del fitoplancton, brindando una representación simplificada pero valiosa de la dinámica de los ecosistemas pelágicos. Este modelo ha sido adaptado y aplicado en diversos entornos marinos, proporcionando información crucial sobre el funcionamiento de las comunidades planctónicas y sus respuestas a los cambios ambientales.
 
 En conclusión, los modelos biológicos, como el modelo NPZ, desempeñan un papel crucial en nuestra comprensión de la compleja dinámica y las interacciones en los ecosistemas pelágicos. Aunque existen modelos más complejos que abarcan múltiples compartimentos y variables, el modelo NPZ proporciona una representación efectiva y simplificada de los componentes esenciales en estos ecosistemas. Estos modelos son herramientas valiosas para avanzar en nuestro conocimiento y contribuir a la conservación y gestión de los hábitats marinos @roy2012.
-:::
+
 
 **2. FORMULACIÓN DEL MODELO**
 
@@ -34,13 +34,21 @@ $dD/dt=$
 
 Todos los parámetros junto con sus unidades y rangos se dan en la Tabla 1. Las unidades de N, P, Z y D son en µg/l y la unidad de tiempo es en días. La parametrización utilizada para elegir los términos en las ecuaciones (1) - (4) es explicado en las secciones
 
+
+
+
 **3. RESULTADOS**
+
+
+
 
 **4. CONCLUSIONES**
 
+
+
+
+:::
 **5. BIBLIOGRAFIA**
-
-
 
 [@roy2012]
 
