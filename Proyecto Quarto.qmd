@@ -7,13 +7,27 @@ bibliography: references.bib
 
 ## Ciclos Biogeoquímicos en Lagos del Sur de Chile {#Resumen .Ilustracion}
 
-Un modelo biogeoquímico es una representación simplificada y matemática de los procesos biológicos, geológicos y químicos que ocurren en los ecosistemas. Estos modelos se utilizan para comprender y simular los flujos de energía, nutrientes y elementos químicos a través de los sistemas naturales, como los océanos, bosques, suelos y cuerpos de agua. Los modelos biogeoquímicos integran información sobre los ciclos biogeoquímicos, que incluyen procesos como la fotosíntesis, la descomposición, la respiración, la fijación de nitrógeno, la lixiviación de nutrientes y la deposición atmosférica. Estos modelos tienen en cuenta las interacciones entre los diferentes componentes del sistema, como las plantas, los animales, los microorganismos, los suelos y la atmósfera. Los modelos biogeoquímicos son herramientas poderosas para predecir los efectos del cambio ambiental, como el cambio climático, la contaminación y la deforestación, en los ciclos biogeoquímicos y en la salud de los ecosistemas. También se utilizan para evaluar la eficacia de las estrategias de gestión y conservación, y para informar la toma de decisiones en la gestión de recursos naturales @roy2012. Los modelos biológicos han sido ampliamente utilizados para comprender la dinámica y las interacciones en los ecosistemas pelágicos. Entre ellos, los modelos de compartimentos han sido especialmente relevantes al agrupar poblaciones completas en compartimentos individuales que interactúan entre sí. La complejidad de estos modelos varía en función de las variables de estado incluidas y las reglas que gobiernan su interacción. Un modelo conocido en este contexto es el modelo propuesto por Fasham et al. (1990), el cual incluye siete compartimentos: fitoplancton, zooplancton, bacterias, nitrato, amonio, nitrógeno orgánico disuelto y detritos. Sin embargo, uno de los modelos biológicos más simples y ampliamente utilizado es el modelo NPZ desarrollado por Franks et al. (1986), que considera únicamente tres compartimentos: fitoplancton, zooplancton y nutrientes disueltos. El modelo NPZ captura los procesos fundamentales que rigen el crecimiento y las interacciones entre estos compartimentos clave. Considera variables como la disponibilidad de nutrientes, la presión de pastoreo y las tasas de crecimiento del fitoplancton, brindando una representación simplificada pero valiosa de la dinámica de los ecosistemas pelágicos. Este modelo ha sido adaptado y aplicado en diversos entornos marinos, proporcionando información crucial sobre el funcionamiento de las comunidades planctónicas y sus respuestas a los cambios ambientales. En conclusión, los modelos biológicos, como el modelo NPZ, desempeñan un papel crucial en nuestra comprensión de la compleja dinámica y las interacciones en los ecosistemas pelágicos. Aunque existen modelos más complejos que abarcan múltiples compartimentos y variables, el modelo NPZ proporciona una representación efectiva y simplificada de los componentes esenciales en estos ecosistemas. Estos modelos son herramientas valiosas para avanzar en nuestro conocimiento y contribuir a la conservación y gestión de los hábitats marinos @roy2012.
+Un modelo biogeoquímico es una representación simplificada y matemática de los procesos biológicos, geológicos y químicos que ocurren en los ecosistemas. Estos modelos se utilizan para comprender y simular los flujos de energía, nutrientes y elementos químicos a través de los sistemas naturales, como los océanos, bosques, suelos y cuerpos de agua. Los modelos biogeoquímicos integran información sobre los ciclos biogeoquímicos, que incluyen procesos como la fotosíntesis, la descomposición, la respiración, la fijación de nitrógeno, la lixiviación de nutrientes y la deposición atmosférica.
+
+Estos modelos tienen en cuenta las interacciones entre los diferentes componentes del sistema, como las plantas, los animales, los microorganismos, los suelos y la atmósfera. Los modelos biogeoquímicos son herramientas poderosas para predecir los efectos del cambio ambiental, como el cambio climático, la contaminación y la deforestación, en los ciclos biogeoquímicos y en la salud de los ecosistemas. También se utilizan para evaluar la eficacia de las estrategias de gestión y conservación, y para informar la toma de decisiones en la gestión de recursos naturales @roy2012.
+
+Los modelos biológicos han sido ampliamente utilizados para comprender la dinámica y las interacciones en los ecosistemas pelágicos. Entre ellos, los modelos de compartimentos han sido especialmente relevantes al agrupar poblaciones completas en compartimentos individuales que interactúan entre sí. La complejidad de estos modelos varía en función de las variables de estado incluidas y las reglas que gobiernan su interacción. Un modelo conocido en este contexto es el modelo propuesto por Fasham et al. (1990), el cual incluye siete compartimentos: fitoplancton, zooplancton, bacterias, nitrato, amonio, nitrógeno orgánico disuelto y detritos. Sin embargo, uno de los modelos biológicos más simples y ampliamente utilizado es el modelo NPZ desarrollado por Franks et al. (1986), que considera únicamente tres compartimentos: fitoplancton, zooplancton y nutrientes disueltos.
+
+El modelo NPZ captura los procesos fundamentales que rigen el crecimiento y las interacciones entre estos compartimentos clave. Considera variables como la disponibilidad de nutrientes, la presión de pastoreo y las tasas de crecimiento del fitoplancton, brindando una representación simplificada pero valiosa de la dinámica de los ecosistemas pelágicos. Este modelo ha sido adaptado y aplicado en diversos entornos marinos, proporcionando información crucial sobre el funcionamiento de las comunidades planctónicas y sus respuestas a los cambios ambientales.
+
+En conclusión, los modelos biológicos, como el modelo NPZ, desempeñan un papel crucial en nuestra comprensión de la compleja dinámica y las interacciones en los ecosistemas pelágicos. Aunque existen modelos más complejos que abarcan múltiples compartimentos y variables, el modelo NPZ proporciona una representación efectiva y simplificada de los componentes esenciales en estos ecosistemas. Estos modelos son herramientas valiosas para avanzar en nuestro conocimiento y contribuir a la conservación y gestión de los hábitats marinos @roy2012.
 
 **2. FORMULACIÓN DEL MODELO**
 
 Un modelo matemático (NPZD) basado en los cuatro compartimentos (Nutriente (N), Fitoplancton (P), Zooplancton (Z) y Detritus (D)) se propone para comprender la ecología de las zonas costeras poco profundas. lagunas. Las interacciones entre los compartimentos se describen en la Figura 1. Las flechas indican el flujo de materia entre diferentes compartimentos. Las ecuaciones del modelo son
 
-\$\$dN/dT
+$dN/dt= - (a(t)NP)/(Kn+N) + rP + øD + [m/H(t)]N1 (t) + (Q/V)N2(t)$
+
+$dP/dt=$
+
+$dZ/dt=$
+
+$dD/dt=$
 
 Todos los parámetros junto con sus unidades y rangos se dan en la Tabla 1. Las unidades de N, P, Z y D son en µg/l y la unidad de tiempo es en días. La parametrización utilizada para elegir los términos en las ecuaciones (1) - (4) es explicado en las secciones
 
@@ -23,11 +37,51 @@ Todos los parámetros junto con sus unidades y rangos se dan en la Tabla 1. Las 
 
 **5. BIBLIOGRAFIA**
 
+Bibliografia
+
+1\. Fasham, M. J. R., Ducklow, H. W., & McKelvie, S. M. (1990). A nitrogen-based model of plankton dynamics in the oceanic mixed layer. Journal of Marine Research, 48(3), 591-639.
+
+2\. Anderson, T. R., & Pondaven, P. (2014). Variability in plankton population dynamics in the North Atlantic from the Continuous Plankton Recorder survey. Progress in Oceanography, 120, 205-218.
+
+3\. Franks, P. J. S., & Pecseli, H. L. (2008). On the interpretation of nitrogen-based metrics of trophic status in the Baltic Sea. Estuarine, Coastal and Shelf Science, 78(4), 681-688.
+
+4\. López-Urrutia, Á., & San Martin, E. (2003). Resource limitation of bacterial production distorts the temperature dependence of oceanic carbon cycling. Ecology Letters, 6(10), 1054-1061.
+
+5\. Platt, T., Fuentes-Yaco, C., & Frank, K. T. (2003). Spring algal bloom and larval fish survival. Nature, 423(6942), 398-399.
+
+6\. Edwards, K. F., Thomas, M. K., Klausmeier, C. A., & Litchman, E. (2015). Light and growth in marine phytoplankton: allometric, taxonomic, and environmental variation. Limnology and Oceanography, 60(2), 540-552.
+
+7\. Marañón, E., Cermeño, P., López-Sandoval, D. C., Rodríguez-Ramos, T., Sobrino, C., Huete-Ortega, M., \... & Bode, A. (2013). Unimodal size scaling of phytoplankton growth and the size dependence of nutrient uptake and use. Ecology Letters, 16(3), 371-379.
+
+8\. Franks, P. J. S., & Fuentes-Yaco, C. (2010). A theory of seasonality. Deep Sea Research Part II: Topical Studies in Oceanography, 57(16), 1559-1567.
+
+9\. Segura-Noguera, M., Navarro, J. M., & Martínez, R. A. (2017). Modeling the impact of environmental variability on the plankton dynamics in the NW Mediterranean Sea. Journal of Marine Systems, 167, 94-106.
+
+10\. Cullen, J. J., & Lewis, M. R. (1988). The kinetics of algal photoadaptation in the context of vertical mixing. Journal of Plankton Research, 10(5), 1039-1063.
+
+11\. Thingstad, T. F., & Lignell, R. (1997). Theoretical models for the control of bacterial growth rate, abundance, diversity and carbon demand. Aquatic Microbial Ecology, 13(1), 19-27.
+
+12\. Sommer, U., Gliwicz, Z. M., Lampert, W., & Duncan, A. (1986). The PEG-model of seasonal succession of planktonic events in fresh waters. Archiv für Hydrobiologie, 106(4), 433-471.
+
+13\. Vasseur, D. A., & Yodzis, P. (2004). The color of environmental noise. Ecology, 85(5), 1146-1152.
+
+14\. Droop, M. R. (1974). The nutrient status of algal cells in continuous culture. Journal of the Marine Biological Association of the United Kingdom, 54(04), 825-855.
+
+15\. Smith, S. L., & Grant, J. (1996). Phytoplankton and nutrient dynamics in the surface mixed layer of the Labrador Sea: a modelling study. Journal of Plankton Research, 18(3), 417-436.
+
+16\. Hill, J., Simpson, J., Turrell, W., & Clarke, D. (2001). Modelling the impacts of nutrient reduction on the eutrophication status of the North Sea. Estuarine, Coastal and Shelf Science, 53(3), 191-215.
+
+17\. Wortmann, U. G., & Sommer, U. (2007). Phytoplankton succession and diversity in the eutrophicated Hölstein Lake (Germany) under new biomanipulation techniques---a long-term study. Limnologica-Ecology and Management of Inland Waters, 37(4), 271-280.
+
+18\. Arhonditsis, G. B., & Brett, M. T. (2004). Evaluation of the size-scaling of phytoplankton nutrient uptake half-saturation constants in ecosystems. Limnology and Oceanography, 49(3), 680-684.
+
+19\. Litchman, E., Klausmeier, C. A., Schofield, O. M., & Falkowski, P. G. (2007). The role of functional traits and trade-offs in structuring phytoplankton communities: scaling from cellular to ecosystem level. Ecology Letters, 10(12), 1170-1181.
+
+20\. Cullen, J. J. (1990). The deep chlorophyll maximum: Comparing vertical profiles of chlorophyll a. Canadian Journal of Fisheries and Aquatic Sciences, 47(1), 12-20.
+
 [@roy2012]
 
 [@chakraborty2008; @carlotti2000][@edwards1996; @chakraborty2008; @rudnicki2008; @record2014; @roy2012a; @priyadarshi2022; @olivieri2000; @montagnes2012; @mitra2009; @mitra2007; @merico2014; @mandal2012; @lewis2005; @leles2016; @lai2010; @kloosterman2016; @jiang2005; @giricheva2019; @gentleman2008; @franks2002; @edwards2001; @edwards2000; @daewel2014; @carlotti2000; @qiu2016; @rani2010; @sanson2009; @serra-pompei2020; @steele1992; @turner2014]
-
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
 
 ```{r}
 1 + 1
