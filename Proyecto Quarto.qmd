@@ -1,10 +1,12 @@
 ---
 title: "Proyecto Quarto"
+Author: Rodrigo Jaramillo Teufert
 format: pdf
 editor: visual
 bibliography: references.bib
 ---
 
+::: justify
 ## Ciclos Biogeoquímicos en Lagos del Sur de Chile {#Resumen .Ilustracion}
 
 Un modelo biogeoquímico es una representación simplificada y matemática de los procesos biológicos, geológicos y químicos que ocurren en los ecosistemas. Estos modelos se utilizan para comprender y simular los flujos de energía, nutrientes y elementos químicos a través de los sistemas naturales, como los océanos, bosques, suelos y cuerpos de agua. Los modelos biogeoquímicos integran información sobre los ciclos biogeoquímicos, que incluyen procesos como la fotosíntesis, la descomposición, la respiración, la fijación de nitrógeno, la lixiviación de nutrientes y la deposición atmosférica.
@@ -16,6 +18,7 @@ Los modelos biológicos han sido ampliamente utilizados para comprender la diná
 El modelo NPZ captura los procesos fundamentales que rigen el crecimiento y las interacciones entre estos compartimentos clave. Considera variables como la disponibilidad de nutrientes, la presión de pastoreo y las tasas de crecimiento del fitoplancton, brindando una representación simplificada pero valiosa de la dinámica de los ecosistemas pelágicos. Este modelo ha sido adaptado y aplicado en diversos entornos marinos, proporcionando información crucial sobre el funcionamiento de las comunidades planctónicas y sus respuestas a los cambios ambientales.
 
 En conclusión, los modelos biológicos, como el modelo NPZ, desempeñan un papel crucial en nuestra comprensión de la compleja dinámica y las interacciones en los ecosistemas pelágicos. Aunque existen modelos más complejos que abarcan múltiples compartimentos y variables, el modelo NPZ proporciona una representación efectiva y simplificada de los componentes esenciales en estos ecosistemas. Estos modelos son herramientas valiosas para avanzar en nuestro conocimiento y contribuir a la conservación y gestión de los hábitats marinos @roy2012.
+:::
 
 **2. FORMULACIÓN DEL MODELO**
 
