@@ -1,6 +1,6 @@
 ---
-title: "Proyecto Quarto"
-author: "Rodrigo Jaramillo Teufert"
+title: "A simple NPZD model for Llanquihue Lake"
+author: "Carolina Rösner & Rodrigo Jaramillo Teufert"
 format: pdf
 editor: visual
 bibliography: references.bib
