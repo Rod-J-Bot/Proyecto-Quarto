@@ -7,6 +7,16 @@ bibliography: references.bib
 ---
 
 ::: justify
+# Abstract
+
+In the present study, a mathematical model (NPZD) based on the four compartments
+Nutrient (N), Phytoplankton (P), Zooplankton (Z) and Detritus (D), is proposed for
+understanding the ecology of shallow coastal lagoons. Model is simulated for the two
+cases of detritus link with the system: i) through remineralization and ii) through
+remineralization and palatability of detritus to zooplankton.
+
+
+
 ## Ciclos Biogeoquímicos en Lagos del Sur de Chile {#Resumen .Ilustracion}
 
 Un modelo biogeoquímico es una representación simplificada y matemática de los procesos biológicos, geológicos y químicos que ocurren en los ecosistemas. Estos modelos se utilizan para comprender y simular los flujos de energía, nutrientes y elementos químicos a través de los sistemas naturales, como los océanos, bosques, suelos y cuerpos de agua. Los modelos biogeoquímicos integran información sobre los ciclos biogeoquímicos, que incluyen procesos como la fotosíntesis, la descomposición, la respiración, la fijación de nitrógeno, la lixiviación de nutrientes y la deposición atmosférica.
