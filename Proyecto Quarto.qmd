@@ -9,15 +9,9 @@ bibliography: references.bib
 ::: justify
 # Abstract
 
-In the present study, a mathematical model (NPZD) based on the four compartments
-Nutrient (N), Phytoplankton (P), Zooplankton (Z) and Detritus (D), is proposed for
-understanding the ecology of shallow coastal lagoons. Model is simulated for the two
-cases of detritus link with the system: i) through remineralization and ii) through
-remineralization and palatability of detritus to zooplankton.
+In the present study, a mathematical model (NPZD) based on the four compartments Nutrient (N), Phytoplankton (P), Zooplankton (Z) and Detritus (D), is proposed for understanding the ecology of shallow coastal lagoons. Model is simulated for the two cases of detritus link with the system: i) through remineralization and ii) through remineralization and palatability of detritus to zooplankton.
 
-
-
-## Ciclos Biogeoquímicos en Lagos del Sur de Chile {#Resumen .Ilustracion}
+## Ciclos Biogeoquímicos en Lagos del Sur de Chile
 
 Un modelo biogeoquímico es una representación simplificada y matemática de los procesos biológicos, geológicos y químicos que ocurren en los ecosistemas. Estos modelos se utilizan para comprender y simular los flujos de energía, nutrientes y elementos químicos a través de los sistemas naturales, como los océanos, bosques, suelos y cuerpos de agua. Los modelos biogeoquímicos integran información sobre los ciclos biogeoquímicos, que incluyen procesos como la fotosíntesis, la descomposición, la respiración, la fijación de nitrógeno, la lixiviación de nutrientes y la deposición atmosférica.
 
@@ -31,7 +25,11 @@ En conclusión, los modelos biológicos, como el modelo NPZ, desempeñan un pape
 
 **2. FORMULACIÓN DEL MODELO**
 
-Un modelo matemático (NPZD) basado en los cuatro compartimentos (Nutriente (N), Fitoplancton (P), Zooplancton (Z) y Detritus (D)) se propone para comprender la ecología de las zonas costeras poco profundas. lagunas. Las interacciones entre los compartimentos se describen en la Figura 1. Las flechas indican el flujo de materia entre diferentes compartimentos. Las ecuaciones del modelo son
+Un modelo matemático (NPZD) basado en los cuatro compartimentos (Nutriente (N), Fitoplancton (P), Zooplancton (Z) y Detritus (D)) se propone para comprender la ecología de las zonas costeras poco profundas. lagunas. Las interacciones entre los compartimentos se describen en la Figura 1.
+
+![](NPZD.JPG)
+
+Las flechas indican el flujo de materia entre diferentes compartimentos. Las ecuaciones del modelo son
 
 $dN/dt= - (a(t)NP)/(Kn+N) + rP + øD + [m/H(t)]N1 (t) + (Q/V)N2(t)$
 
