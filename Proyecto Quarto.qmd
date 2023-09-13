@@ -45,17 +45,17 @@ All parameters, along with their units and ranges, are provided in Table 1. The 
 | **PARAMETERS**     | **Value for numerical experimients** | **Value assigned to Site 1** | **Value Assigned to Site 2** | **Value Assigned to Site 3** |
 |-------------------------------|--------------|----------|----------|----------|
 | maxUptake          | 1.0                                  |                              |                              |                              |
-| ksPAR              |                                      |                              |                              |                              |
-| ksDIN              |                                      |                              |                              |                              |
-| maxGrazing         |                                      |                              |                              |                              |
-| ksPHYTO            |                                      |                              |                              |                              |
-| pFaeces            |                                      |                              |                              |                              |
-| excretionRate      |                                      |                              |                              |                              |
-| mortalityRate      |                                      |                              |                              |                              |
-| mineralizationRate |                                      |                              |                              |                              |
-| depth              |                                      |                              |                              |                              |
-| K                  |                                      |                              |                              |                              |
-| u                  |                                      |                              |                              |                              |
+| ksPAR              | 140                                  |                              |                              |                              |
+| ksDIN              | 1.0                                  |                              |                              |                              |
+| maxGrazing         | 1.0                                  |                              |                              |                              |
+| ksPHYTO            | 1.0                                  |                              |                              |                              |
+| pFaeces            | 0.3                                  |                              |                              |                              |
+| excretionRate      | 0.1                                  |                              |                              |                              |
+| mortalityRate      | 0.4                                  |                              |                              |                              |
+| mineralizationRate | 0.05                                 |                              |                              |                              |
+| depth              | 10                                   |                              |                              |                              |
+| K                  | 20                                   |                              |                              |                              |
+| u                  | 0.028                                |                              |                              |                              |
 |                    |                                      |                              |                              |                              |
 |                    |                                      |                              |                              |                              |
 |                    |                                      |                              |                              |                              |
