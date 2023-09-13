@@ -42,23 +42,23 @@ $dD/dt= [uP/K+P] P - oD + [p1P/A][((1-e)c(A-A0)Z)/Kz + A-A0]-[p2D/A][eC(A-A0)Z/K
 All parameters, along with their units and ranges, are provided in Table 1. The units for N, P, Z, and D are µg/l, and the unit of time is in days. The parameterization used to select the terms in equations (1) - (4) is explained in the sections.....
 :::
 
-| PARAMETERS         | Value for numerical experimients | Value assigned to Site 1 | Value Assigned to Site 2 | Value Assigned to Site 3 |
-|--------------------|----------------------------------|--------------------------|--------------------------|--------------------------|
-| maxUptake          | 1.0                              |                          |                          |                          |
-| ksPAR              |                                  |                          |                          |                          |
-| ksDIN              |                                  |                          |                          |                          |
-| maxGrazing         |                                  |                          |                          |                          |
-| ksPHYTO            |                                  |                          |                          |                          |
-| pFaeces            |                                  |                          |                          |                          |
-| excretionRate      |                                  |                          |                          |                          |
-| mortalityRate      |                                  |                          |                          |                          |
-| mineralizationRate |                                  |                          |                          |                          |
-| depth              |                                  |                          |                          |                          |
-| K                  |                                  |                          |                          |                          |
-| u                  |                                  |                          |                          |                          |
-|                    |                                  |                          |                          |                          |
-|                    |                                  |                          |                          |                          |
-|                    |                                  |                          |                          |                          |
+| **PARAMETERS**     | **Value for numerical experimients** | **Value assigned to Site 1** | **Value Assigned to Site 2** | **Value Assigned to Site 3** |
+|--------------------|--------------------------------------|------------------------------|------------------------------|------------------------------|
+| maxUptake          | 1.0                                  |                              |                              |                              |
+| ksPAR              |                                      |                              |                              |                              |
+| ksDIN              |                                      |                              |                              |                              |
+| maxGrazing         |                                      |                              |                              |                              |
+| ksPHYTO            |                                      |                              |                              |                              |
+| pFaeces            |                                      |                              |                              |                              |
+| excretionRate      |                                      |                              |                              |                              |
+| mortalityRate      |                                      |                              |                              |                              |
+| mineralizationRate |                                      |                              |                              |                              |
+| depth              |                                      |                              |                              |                              |
+| K                  |                                      |                              |                              |                              |
+| u                  |                                      |                              |                              |                              |
+|                    |                                      |                              |                              |                              |
+|                    |                                      |                              |                              |                              |
+|                    |                                      |                              |                              |                              |
 
 Table 1: Parameters values used in the model
 
