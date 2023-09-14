@@ -98,6 +98,8 @@ grid.arrange(plot_din, plot_phyto, plot_zoo, plot_det, nrow = 2)
 #                                                                     #
 #######################################################################
 
+renv::update
+
 # Option 2 para resolver el modelo
 
 # OD NPZD model in R using ode function drom deSolve

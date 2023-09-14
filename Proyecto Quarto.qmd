@@ -43,7 +43,7 @@ All parameters, along with their units and ranges, are provided in Table 1. The 
 :::
 
 | **PARAMETERS**     | **Value for numerical experimients** | **Value assigned to Site 1** | **Value Assigned to Site 2** | **Value Assigned to Site 3** |
-|-------------------------------|--------------|----------|----------|----------|
+|--------------------|--------------------------------------|------------------------------|------------------------------|------------------------------|
 | maxUptake          | 1.0                                  |                              |                              |                              |
 | ksPAR              | 140                                  |                              |                              |                              |
 | ksDIN              | 1.0                                  |                              |                              |                              |

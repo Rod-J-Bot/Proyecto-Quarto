@@ -8,20 +8,21 @@
 #                                                                     #
 #######################################################################
 
-# Option 2 para resolver el modelo
 
+
+renv::deactivate()
+
+# Option 2 para resolver el modelo
 # OD NPZD model in R using ode function drom deSolve
 install.packages('deSolve')
 require(deSolve)
 
+
+
 #variable inicial de estado  [nmolN/m3]
 state <- c(DIN = 10.0, PHYTO = 0.5, ZOO = 0.3, DET = 5.0)
 
-# Tabla de datos
-tabla_datos <- data.frame(
-  Nombre = c("Dato1", "Dato2", "Dato3"),
-  Valor = c(1.0, 2.0, 3.0)
-)
+
 
 # Parametros
 parms <- c(
@@ -37,7 +38,6 @@ parms <- c(
   depth              = 10, 15,  # [m]
   K                  = 20, 22, # [ug/l] P mortality half saturation constant
   u                 =  0.028, 0.035, # [d^-1) P mortality rate
-  tablaDatos = tabla_datos  # Agregar la tabla de datos como un parámetro
 )
 
 
